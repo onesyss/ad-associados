@@ -1,0 +1,23 @@
+{
+  "name": "advogados-associados-frontend",
+  "version": "0.1.0",
+  "description": "Projeto individual - Advogados Associados",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4200",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Gustavo Guimaraes",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bulma": "^0.9.0",
+    "jquery": "^3.5.1",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "16.13.1"
+  }
+}

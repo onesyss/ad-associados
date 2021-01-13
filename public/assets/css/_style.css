@@ -1,0 +1,61 @@
+.hero-head{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3c3c3c;
+}
+.navbar-menu{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+/* ---------- hack de texto por sobre a imagem inicio ----------  */
+
+.container-image{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto-image{
+    position: absolute;
+    top: 0px;
+    /* padding: 20px; */
+    display: block;
+}
+.texto-image p{
+    font-size: 1em;
+    line-height: 1rem;
+    margin-bottom: 5px;
+    /* letter-spacing: 5px; */
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0,9);
+}
+
+/* ---------- hack de texto por sobre a imagem final ----------  */
+.boxshadow{
+    /* background-color: #fff; */
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+.boxshadowborder{
+    /* background-color: #fff; */
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #182743;
+    max-width: 100%;
+    position: relative;
+    border: solid 0.8px rgba(24,39,67,0.5);
+}
+.boxshadowborder p{
+    color:#848080;
+}
+.bg-level {
+    background-color: #3c3c3c;
+}
+.bg-footer{
+    background-color: #2d364c;
+}
